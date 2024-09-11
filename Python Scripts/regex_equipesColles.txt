@@ -1,0 +1,17 @@
+(^[A-Z]|[0-9]+[a-z]*)?([A-Z]{1}[a-z]*)
+(([A-Z][a-z]*)|([\d]+[a-z]*))[A-Z]{1}[a-z]*
+r'([A-Z][a-z]+|[\d]+[a-z]+)'
+
+
+
+
+regex for the following list
+r'[A-Z][a-z]+ .*|[A-Z][a-z]+|[\d]+[a-z]+'
+
+YankeesMets
+DodgersAngels
+GiantsAthletics
+CubsWhite Sox  <-- notice the space, present in previous regex right before .*
+GiantsJets
+RamsChargers
+49ersRaiders
